@@ -52,8 +52,7 @@ export const HeartCollage = ({
 }) => {
     let imageCounter = 0;
     return (
-        <div className="flex flex-col items-center justify-center py-2 sm:py-6 relative select-none w-full bg-[#fdfaf6] overflow-hidden">
-            
+<div className="flex flex-col items-center justify-center py-2 sm:py-4 relative select-none w-full bg-[#fdfaf6] overflow-hidden">            
             <style>{`
                 @keyframes heartbeat {
                     0%, 100% { transform: scale(1); }
