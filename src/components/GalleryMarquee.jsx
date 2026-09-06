@@ -63,12 +63,12 @@ export default function GalleryMarquee() {
     <div className="w-full h-full flex flex-col justify-center items-center overflow-hidden bg-black relative">
 
       {/* Marquee Container (nghiêng nhẹ để tạo cảm giác nghệ thuật) */}
-      <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 -mt-4 md:-mt-12 transform -rotate-3 scale-110 md:scale-105 w-full relative">
+      <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 -mt-5 md:-mt-12 transform -rotate-3 scale-110 md:scale-105 w-full relative">
         {renderRow(row1, false, false)}
 
         {/* Chữ GRADUATION nằm giữa line 2 hàng ảnh */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-          <h1 className={`${windSongFont.className} text-[18vw] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] text-white tracking-[0.02em] sm:tracking-[0.08em] drop-shadow-2xl mix-blend-overlay opacity-100 select-none translate-y-12 sm:translate-y-8 md:translate-y-10`}>
+          <h1 className={`${windSongFont.className} text-[18vw] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] text-white tracking-[0.02em] sm:tracking-[0.08em] drop-shadow-2xl mix-blend-overlay opacity-100 select-none translate-y-11 sm:translate-y-8 md:translate-y-10`}>
             Graduation
           </h1>
         </div>
