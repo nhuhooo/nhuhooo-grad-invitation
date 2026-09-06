@@ -92,10 +92,8 @@ export default function InvitationModal({ isOpen, onClose, to }) {
           relative
           w-[92vw]
           max-w-[480px]
-          h-[88vh]
-          sm:h-[90vh]
-          md:h-auto
-          md:aspect-[3/4.2]
+          h-auto
+          aspect-[3/4.2]
 
           rounded-sm
           overflow-hidden
@@ -423,7 +421,7 @@ export default function InvitationModal({ isOpen, onClose, to }) {
 
                     tracking-[0.08em]
 
-                    text-[20px]
+                    text-[14px]
                     sm:text-[16px]
 
                     mt-2
