@@ -35,8 +35,8 @@ export default async function Home({ searchParams }) {
         <div className="absolute inset-0 bg-black/30 z-0" />
         
         {/* Text Overlay on Image */}
-        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full py-16 sm:py-24 pointer-events-none">
-          <h1 className={`${playfairFont.className} flex flex-col justify-between h-full uppercase text-[28vw] sm:text-[25vw] md:text-[20vw] lg:text-[18vw] leading-none text-white drop-shadow-xl font-bold tracking-tighter opacity-40 text-center`}>
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full py-16 sm:py-24 lg:py-32 pointer-events-none">
+          <h1 className={`${playfairFont.className} flex flex-col justify-between h-full md:h-[85%] lg:h-[75%] uppercase text-[28vw] sm:text-[25vw] md:text-[20vw] lg:text-[18vw] leading-none text-white drop-shadow-xl font-bold tracking-tighter opacity-40 text-center md:-translate-y-10 lg:-translate-y-16`}>
             <span>Class</span>
             <span>of</span>
             <span>2026</span>
@@ -63,7 +63,7 @@ export default async function Home({ searchParams }) {
       {/* ================= SLIDE 4 ================= */}
       <section className="w-full h-[100dvh] shrink-0 flex flex-col items-center justify-center px-6 sm:px-8">
         <div
-          className={`${windSongFont.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#003153] mb-4 sm:mb-8 leading-relaxed text-center w-full max-w-4xl`}
+          className={`${windSongFont.className} text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-[#003153] mb-2 sm:mb-4 lg:mb-2 leading-relaxed text-center w-full max-w-4xl lg:-translate-y-4`}
         >
           Thank you for walking by my side through every high and low of these past 4 years.
         </div>
