@@ -68,7 +68,7 @@ export default function GalleryMarquee() {
 
         {/* Chữ GRADUATION nằm giữa line 2 hàng ảnh */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-          <h1 className={`${windSongFont.className} text-4xl sm:text-6xl md:text-[8rem] lg:text-[10rem] text-white tracking-[0.05em] sm:tracking-[0.08em] drop-shadow-2xl mix-blend-overlay opacity-100 select-none translate-y-2 sm:translate-y-8 md:translate-y-10`}>
+          <h1 className={`${windSongFont.className} text-7xl sm:text-[6rem] md:text-[8rem] lg:text-[10rem] text-white tracking-[0.05em] sm:tracking-[0.08em] drop-shadow-2xl mix-blend-overlay opacity-100 select-none translate-y-2 sm:translate-y-8 md:translate-y-10`}>
             Graduation
           </h1>
         </div>

@@ -23,7 +23,7 @@ export default async function Home({ searchParams }) {
       <FullPageScroller>
 
       {/* ================= SLIDE 1 ================= */}
-      <section className="w-full h-screen shrink-0 relative flex items-center justify-center overflow-hidden shadow-lg">
+      <section className="w-full h-[100dvh] shrink-0 relative flex items-center justify-center overflow-hidden shadow-lg">
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-[center_70%]"
           style={{
@@ -35,16 +35,18 @@ export default async function Home({ searchParams }) {
         <div className="absolute inset-0 bg-black/30 z-0" />
         
         {/* Text Overlay on Image */}
-        <div className="relative z-10 text-center w-full px-1 -translate-y-[35vh] md:-translate-y-[25vh]">
-          <h1 className={`${playfairFont.className} text-[16vw] sm:text-[14vw] md:text-[12vw] lg:text-[10vw] leading-none text-white drop-shadow-xl font-bold whitespace-nowrap tracking-tighter opacity-40`}>
-            Class of 2026         
+        <div className="relative z-10 text-center w-full px-1 -translate-y-[15vh] md:-translate-y-[20vh]">
+          <h1 className={`${playfairFont.className} flex flex-col uppercase text-[35vw] sm:text-[30vw] md:text-[25vw] lg:text-[20vw] leading-[0.85] text-white drop-shadow-xl font-bold tracking-tighter opacity-40`}>
+            <span>Class</span>
+            <span>of</span>
+            <span>2026</span>
           </h1>
         </div>
       </section>
 
 
       {/* ================= SLIDE 2 ================= */}
-      <section className="w-full h-screen shrink-0 flex flex-col items-center justify-center bg-[#38040E]">
+      <section className="w-full h-[100dvh] shrink-0 flex flex-col items-center justify-center bg-[#38040E]">
          <div className={`${windSongFont.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white my-1`}>
             A beautiful chapter is ending, 
           </div>
@@ -54,14 +56,14 @@ export default async function Home({ searchParams }) {
         <CoverCountdown />
       </section>
       {/* ================= SLIDE 3 ================= */}
-      <section className="w-full h-screen shrink-0 relative flex items-center justify-center overflow-hidden">
+      <section className="w-full h-[100dvh] shrink-0 relative flex items-center justify-center overflow-hidden bg-black">
         <GalleryMarquee />
       </section>
 
       {/* ================= SLIDE 4 ================= */}
-      <section className="w-full h-screen mt-10 shrink-0 items-center justify-center">
+      <section className="w-full h-[100dvh] shrink-0 flex flex-col items-center justify-center px-6 sm:px-8">
         <div
-          className={`${windSongFont.className} text-xl sm:text-2xl md:text-3xl lg:text-4xl text-[#003153] my-1 leading-relaxed`}
+          className={`${windSongFont.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#003153] mb-4 sm:mb-8 leading-relaxed text-center w-full max-w-4xl`}
         >
           Thank you for walking by my side through every high and low of these past 4 years.
         </div>
@@ -73,10 +75,10 @@ export default async function Home({ searchParams }) {
             "/h4.JPG",
             "/h5.jpeg",
             "/h6.jpeg",
-            "/h7.png",
+            "/h7.PNG",
             "/h8.jpg",
             "/h10.jpeg", 
-            "/h11.jpg",
+            "/h11.JPG",
             "/h13.jpeg",
             "/h12.jpeg",
             "/h14.jpeg",
@@ -85,7 +87,7 @@ export default async function Home({ searchParams }) {
       </section>
 
       {/* ================= SLIDE 6 (ENVELOPE) ================= */}
-      <section className="w-full h-screen shrink-0 flex flex-col items-center justify-center bg-[#fdfaf6] pb-4 sm:pb-10 pt-16 sm:pt-0">
+      <section className="w-full h-[100dvh] shrink-0 flex flex-col items-center justify-center bg-[#fdfaf6] p-4">
         
         {/* Div Text (Text Block) */}
         <div className="flex flex-col items-center gap-2 sm:gap-4 md:gap-8 text-gray-800 drop-shadow-sm px-4 max-w-4xl w-full">

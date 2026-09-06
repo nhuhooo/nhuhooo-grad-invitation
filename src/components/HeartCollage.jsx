@@ -52,7 +52,7 @@ export const HeartCollage = ({
 }) => {
     let imageCounter = 0;
     return (
-        <div className="flex flex-col items-center justify-center min-h-[90dvh] py-6 relative select-none w-full bg-[#fdfaf6] overflow-hidden">
+        <div className="flex flex-col items-center justify-center py-2 sm:py-6 relative select-none w-full bg-[#fdfaf6] overflow-hidden">
             
             <style>{`
                 @keyframes heartbeat {
@@ -71,7 +71,7 @@ export const HeartCollage = ({
 
             
             {/* HEART GRID MAIN CONTAINER */}
-            <div className="w-full max-w-[280px] sm:max-w-[360px] md:max-w-[480px] lg:max-w-[600px] px-2 sm:px-4 py-2 sm:py-6 flex justify-center relative mx-auto z-10">
+            <div className="w-full max-w-[360px] sm:max-w-[420px] md:max-w-[480px] lg:max-w-[600px] px-2 sm:px-4 py-2 sm:py-6 flex justify-center relative mx-auto z-10">
                 <div className="grid grid-cols-5 gap-1 sm:gap-2 md:gap-3 w-full relative select-none  origin-center">
                     {HEART_GRID.map((row, rIdx) =>
                         row.map((cell, cIdx) => {
