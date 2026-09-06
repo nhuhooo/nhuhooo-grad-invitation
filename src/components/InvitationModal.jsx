@@ -418,19 +418,16 @@ export default function InvitationModal({ isOpen, onClose, to }) {
                 <div
                   className={`
                     ${windSongFont.className}
-
-                    tracking-[0.08em]
-
-                    text-[14px]
+                    tracking-[0.05em]
+                    text-[12px]
                     sm:text-[16px]
-
                     mt-2
-font-semibold
-                    max-w-[220px]
-
+                    font-semibold
+                    whitespace-nowrap
                   `}
                 >
-                  Your presence would mean a lot to me                </div>
+                  Your presence would mean a lot to me
+                </div>
               </div>
             </div>
           </div>

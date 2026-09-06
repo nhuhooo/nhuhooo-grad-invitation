@@ -35,8 +35,8 @@ export default async function Home({ searchParams }) {
         <div className="absolute inset-0 bg-black/30 z-0" />
         
         {/* Text Overlay on Image */}
-        <div className="relative z-10 text-center w-full px-1 -translate-y-[15vh] md:-translate-y-[20vh]">
-          <h1 className={`${playfairFont.className} flex flex-col uppercase text-[35vw] sm:text-[30vw] md:text-[25vw] lg:text-[20vw] leading-[0.85] text-white drop-shadow-xl font-bold tracking-tighter opacity-40`}>
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full py-16 sm:py-24 pointer-events-none">
+          <h1 className={`${playfairFont.className} flex flex-col justify-between h-full uppercase text-[28vw] sm:text-[25vw] md:text-[20vw] lg:text-[18vw] leading-none text-white drop-shadow-xl font-bold tracking-tighter opacity-40 text-center`}>
             <span>Class</span>
             <span>of</span>
             <span>2026</span>
