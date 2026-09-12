@@ -9,8 +9,9 @@ import { HeartCollage } from "../components/HeartCollage";
 import { ChevronDown } from "lucide-react";
 
 const ScrollIndicator = ({ color = "text-white/70" }) => (
-  <div className={`absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 animate-bounce z-50 ${color}`}>
-    <ChevronDown className="w-8 h-8 sm:w-10 sm:h-10" />
+  <div className={`absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce z-50 ${color}`}>
+    <span className="text-[10px] sm:text-xs uppercase tracking-widest font-medium opacity-80 mb-1">Scroll to view</span>
+    <ChevronDown className="w-6 h-6 sm:w-8 sm:h-8 -mt-1" />
   </div>
 );
 
