@@ -92,8 +92,9 @@ export default async function Home({ searchParams }) {
 
         {/* ================= SLIDE 4 ================= */}
         <section className="w-full h-[100dvh] shrink-0 relative flex flex-col items-center justify-center px-6 sm:px-8">
-  <div className={`${windSongFont.className} text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-[#003153] mb-2 sm:mb-4 lg:mb-2 leading-relaxed text-center w-full max-w-4xl lg:-translate-y-4`}>
-    Thank you for walking by my side through every high and low of these past 4 years.
+        <div
+          className={`${windSongFont.className} pt-10 text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-[#003153] mb-2 sm:mb-4 lg:mb-2 leading-relaxed text-center w-full max-w-4xl lg:-translate-y-4`}
+        >Thank you for walking by my side through every high and low of these past 4 years.
   </div>
 
   <HeartCollage
