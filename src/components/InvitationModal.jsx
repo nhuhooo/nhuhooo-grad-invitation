@@ -150,117 +150,23 @@ export default function InvitationModal({ isOpen, onClose, to }) {
               "
             >
               {/* ================= HEADER ================= */}
-              <div
-                className="
-                  flex flex-col
-                  items-center
-                  gap-3
-                  sm:gap-4
-                  md:gap-5
-                  text-gray-800
-                  drop-shadow-sm
-                "
-              >
-                {/* You are invited to */}
-                <div
-                  className={`
-                    ${playfairFont.className}
-                    text-[10px]
-                    sm:text-xs
-                    md:text-sm
-                    lg:text-base
-
-                    uppercase
-                    tracking-[0.18em]
-                    sm:tracking-[0.25em]
-
-                    mt-5
-                  `}
-                >
+              <div className="flex flex-col items-center gap-3 sm:gap-4 md:gap-5 text-gray-800 drop-shadow-sm">
+                <div className={`${playfairFont.className} text-[10px] sm:text-xs md:text-smlg:text-base uppercase tracking-[0.18em] sm:tracking-[0.25em] mt-5`}>
                   You are invited to
                 </div>
 
-                {/* Name */}
-                <div
-                  className={`
-                    ${windSongFont.className}
-                    text-lg
-                    sm:text-xl
-                    md:text-2xl
-                    lg:text-2xl
-                    text-black
-                    leading-none
-                    my-1
-                  `}
-                >
+                <div className={`${windSongFont.className} text-lg sm:text-xl md:text-2xl lg:text-2xl text-black leading-none my-1`}>
                   Hồ Ngọc Như's
                 </div>
 
-                {/* Graduation Ceremony */}
-                <div
-                  className={`
-    ${playfairFont.className}
-    text-xs
-    sm:text-sm
-    md:text-base
-    lg:text-lg
-    uppercase
-    tracking-[0.15em]
-    sm:tracking-[0.22em]
-    whitespace-nowrap
-  `}
-                >
+                <div className={`${playfairFont.className} text-xs sm:text-sm md:text-base lg:text-lg uppercase tracking-[0.15em] sm:tracking-[0.22em] whitespace-nowrap`}>
                   Graduation Ceremony
                 </div>
               </div>
 
-
-              {/* ================= DATE ================= */}
-              <div
-                className="
-                  flex
-                  flex-row
-                  items-center
-                  justify-center
-                  gap-3
-                  sm:gap-5
-                  md:gap-6
-
-                  w-full
-                  my-7
-                  sm:my-9
-                "
-              >
-                {/* Day */}
-                <div
-                  className="
-                    flex flex-col
-                    items-center justify-center
-
-                    border-y
-                    border-[#5b6a7a]/40
-
-                    py-3
-                    sm:py-4
-
-                    w-[72px]
-                    sm:w-[90px]
-                  "
-                >
-                  <span
-                    className={`
-                      ${playfairFont.className}
-                      uppercase
-                      tracking-[0.08em]
-                      sm:tracking-[0.15em]
-
-                     text-[25px]
-                      sm:text-[28px]
-
-
-                      font-bold
-                    `}
-                  >
+              <div className="flex flex-row items-center justify-center gap-3 sm:gap-5 md:gap-6 w-full my-7 sm:my-9">
+                <div className="flex flex-col items-center justify-center border-y border-[#5b6a7a]/40 py-3 sm:py-4 w-[72px] sm:w-[90px] ">
+                  <span className={`${playfairFont.className} uppercase tracking-[0.08em] sm:tracking-[0.15em]text-[25px] sm:text-[28px] font-bold`}>
                     Sat
                   </span>
                 </div>

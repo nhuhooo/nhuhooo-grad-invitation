@@ -101,17 +101,17 @@ export default async function Home({ searchParams }) {
   <HeartCollage
     customPhotos={[
       "/h1.JPG",
-      "/h2.jpeg",
-      "/h3.JPG",
       "/h4.JPG",
-      "/h5.jpeg",
-      "/h6.jpeg",
-      "/h7.PNG",
+      "/thuyan.png",
+      "/honglam.jpg",
+      "/hanghi.jpg",
+      "/kq.png",
+      "/tris.jpeg",
+      "/h9.JPG",
       "/h8.jpg",
-      "/h10.jpeg",
-      "/h11.JPG",
-      "/h13.jpeg",
-      "/h12.jpeg",
+      "/sy.jpg",
+      "/thien.png",
+      "/bosch.jpg",
       "/h14.jpeg",
     ]}
   />

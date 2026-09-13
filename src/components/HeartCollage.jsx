@@ -99,7 +99,6 @@ export const HeartCollage = ({
                                 );
                             }
 
-                            // Ô Hình ảnh
                             const currentIdx = imageCounter++;
                             const photo = currentIdx < customPhotos.length ? customPhotos[currentIdx] : null;
 
@@ -120,7 +119,7 @@ export const HeartCollage = ({
                                 >
                                     {photo ? (
                                         <img
-                                            alt="kỷ niệm"
+                                            alt="memoríe"
                                             src={photo}
                                             className={`w-full h-full object-cover ${customTransform}`}
                                             loading="lazy"
