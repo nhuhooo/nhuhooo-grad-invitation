@@ -126,7 +126,7 @@ export default async function Home({ searchParams }) {
             {/* Dear section */}
             <div className="flex flex-col md:flex-row items-center md:items-baseline">
               <span className={`${windSongFont.className} text-lg sm:text-xl md:text-2xl lg:text-3xl mr-2`}>To </span>
-              <span className={`${windSongFont.className} text-lg sm:text-xl md:text-2xl lg:text-3xl text-black font-bold mt-1 md:mt-0 md:ml-2 tracking-normal whitespace-pre-wrap`}>
+              <span className={`${windSongFont.className} text-lg sm:text-xl md:text-2xl lg:text-3xl text-black font-bold mt-1 md:mt-0 md:ml-2 tracking-widest whitespace-pre-wrap`}>
                 {to},
               </span>
             </div>
